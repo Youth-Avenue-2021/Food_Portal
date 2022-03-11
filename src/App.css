@@ -9,3 +9,7 @@
     src: url("./Fonts/googleFont.woff2");
   }
 }
+
+body {
+  @apply font-body;
+}
