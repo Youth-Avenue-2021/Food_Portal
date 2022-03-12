@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
       <header className="bg-gray-200">
         <div className="container flex items-center justify-between px-16 py-5 mx-auto">
-          <h2 className="text-4xl font-bold text-sky-600">Food Portal</h2>
+          <Link to="/">
+            <h2 className="text-4xl font-bold text-sky-600">Food Portal</h2>
+          </Link>
           <div className="flex flex-row items-center justify-center">
             {/* <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
               <i className="mr-1 text-sky-600 fa-solid fa-square-pen"></i>Write a complain

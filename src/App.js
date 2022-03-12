@@ -3,14 +3,29 @@ import MessRanking from "./Components/MessRanking";
 import Navbar from "./Components/Navbar";
 import PyBoat from "./Components/PyBoat";
 import SearchSection from "./Components/SearchSection";
+import { Routes, Route } from "react-router-dom";
+import Mess from "./Pages/MessData/Mess";
+import MessLinksData from "./Pages/MessData/Components/MessLinksData";
 
 function App() {
   return (
     <>
       <PyBoat />
       <Navbar />
-      <SearchSection />
-      <MessRanking />
+
+      <Routes>
+        <Route
+          path="/"
+          exact
+          element={
+            <>
+              <SearchSection />
+              <MessRanking />
+            </>
+          }
+        />
+        <Route path="mess" element={<Mess />} />
+      </Routes>
     </>
   );
 }

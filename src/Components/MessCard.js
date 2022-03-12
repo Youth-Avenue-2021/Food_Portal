@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const MessCard = () => {
   return (
@@ -15,9 +15,9 @@ const MessCard = () => {
             <i className="text-sky-500 fa-solid fa-star-half-stroke"></i>
           </div>
           <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique, temporibus eius sit impedit, </p>
-          <a href="/mess" className="mt-3 underline text-sky-500">
+          <Link to="/mess" className="mt-3 underline text-sky-500">
             View Mess
-          </a>
+          </Link>
         </div>
       </div>
     </>

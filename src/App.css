@@ -14,6 +14,10 @@ body {
   @apply font-body;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .shadowBox {
   box-shadow: rgb(0 0 0 / 8%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
 }
