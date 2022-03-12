@@ -9,7 +9,7 @@ const MessRatingSideComponent = () => {
           {/* <p>Rate your Mess</p> */}
           <div className="flex flex-col w-full my-3">
             <input type="text" placeholder="write your review" className="w-full p-2 duration-300 border-2 rounded-md outline-none border-sky-200 focus:border-sky-600" />
-            <input type="submit" value="Rate" className="w-full cursor-pointer my-2 hover:bg-sky-200 duration-200 rounded-md hover:border-sky-200 p-1.5 border-2 border-sky-600" />
+            <input type="submit" value="Rate" className="w-full cursor-pointer my-2 hover:bg-sky-100 duration-200 rounded-md hover:border-sky-100 p-1.5 border-2 border-sky-600" />
           </div>
         </div>
         {/* <div className="flex items-center justify-center mx-auto rounded-full shadow-xl w-min">

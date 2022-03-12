@@ -4,8 +4,8 @@ import GoogleMap from "./GoogleMap";
 const ContactMess = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center p-10 py-5 duration-200 rounded-lg shadow-md hover:shadow-xl">
-        <div className="w-full py-5 my-2 text-left rounded-md">
+      <div className="z-30 flex flex-col items-center justify-center p-10 py-5 duration-200 rounded-lg shadow-md hover:shadow-xl">
+        <div className="w-full my-2 text-left rounded-md">
           <h2 className="text-2xl">
             <i className="mr-2 text-xl text-sky-700 fa-solid fa-map-location-dot"></i>Location
           </h2>

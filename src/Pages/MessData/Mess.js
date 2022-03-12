@@ -23,7 +23,7 @@ const Mess = () => {
           <MessReviews />
           <MessRatingSection />
         </div>
-        <div className="sticky top-0 w-1/4 p-5">
+        <div className="sticky top-0 w-1/4 px-5 py-8">
           <ContactMess />
           <MessRatingSideComponent />
         </div>

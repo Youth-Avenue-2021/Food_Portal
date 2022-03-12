@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <header className="bg-gray-200">
+      <header className="bg-gray-100">
         <div className="container flex items-center justify-between px-16 py-5 mx-auto">
           <Link to="/">
             <h2 className="text-4xl font-bold text-sky-600">Food Portal</h2>
@@ -12,20 +12,28 @@ const Navbar = () => {
             {/* <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
               <i className="mr-1 text-sky-600 fa-solid fa-square-pen"></i>Write a complain
             </a> */}
-            <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
-              <i className="mr-1 text-sky-600 fa-solid fa-briefcase"></i> About
-            </a>
+            <span className="mx-2 text-base duration-200 group ">
+              <a className="duration-200 hover:text-sky-" href="https://youtube.com">
+                <i className="mr-1 text-sky-600 fa-solid fa-briefcase"></i> About
+              </a>
+              <div className="absolute flex flex-col items-start justify-center p-4 duration-300 rounded-md shadow-xl opacity-0 bg-gray-50 group-hover:opacity-100 top-14">
+                <a className="mx-2 my-1 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
+                  <i className="mr-1 text-sky-600 fa-solid fa-star-of-life"></i>
+                  About Portal
+                </a>
+                <a className="mx-2 my-1 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
+                  <i className="mr-1 text-sky-600 fa-solid fa-rocket"></i>
+                  Mission
+                </a>
+                <a className="mx-2 my-1 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
+                  <i className="mr-1 text-sky-600 fa-solid fa-briefcase"></i>
+                  How do we work?
+                </a>
+              </div>
+            </span>
             <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
               <i className="mr-1 text-sky-600 fa-solid fa-star-of-life"></i>
               Benefits
-            </a>
-            <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
-              <i className="mr-1 text-sky-600 fa-solid fa-rocket"></i>
-              Mission
-            </a>
-            <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
-              <i className="mr-1 text-sky-600 fa-solid fa-briefcase"></i>
-              How do we work?
             </a>
             <a className="mx-2 text-base duration-200 hover:text-sky-500" href="https://youtube.com">
               <i className="mr-1 text-sky-600 fa-solid fa-utensils"></i>

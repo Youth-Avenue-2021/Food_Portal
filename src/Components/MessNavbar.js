@@ -47,7 +47,7 @@ const MessNavbar = () => {
   ];
   return (
     <>
-      <header className="bg-sky-100">
+      <header className="sticky top-0 z-20 bg-sky-100">
         <div className="container flex items-center justify-center px-16 py-5 mx-auto">
           <div className="flex flex-row items-center justify-start w-full">
             {linkData.map((item, index) => (

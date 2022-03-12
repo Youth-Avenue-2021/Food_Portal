@@ -4,7 +4,7 @@ import UserCard from "./UserCard";
 const MessComplains = () => {
   return (
     <>
-      <div className="flex flex-col items-start justify-center">
+      <div className="flex flex-col items-start duration-300 justify-center p-10 rounded-md shadow-md hover:shadow-xl">
         <h2 className="text-3xl font-medium">Mess Complains</h2>
         <div className="flex flex-row items-center justify-between w-full px-4 my-5">
           <p className="text-lg">
