@@ -1,7 +1,8 @@
 const MessDetails = () => {
   return (
     <div className="h-[15rem] bg-sky-200">
-      <div className="container flex items-center justify-start h-full px-20 py-5 mx-auto ">
+      {/* Changed padding to "px-16" from  "px-20" */}
+      <div className="container flex items-center justify-start h-full px-16 py-5 mx-auto ">
         <div className="flex flex-row items-center justify-center">
           <span className="w-20 h-20 rounded-md bg-sky-700"></span>
           <div className="flex flex-col items-start justify-center ml-7">

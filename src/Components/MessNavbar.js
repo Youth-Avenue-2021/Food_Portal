@@ -49,10 +49,12 @@ const MessNavbar = () => {
     <>
       <header className="sticky top-0 z-20 bg-sky-100">
         <div className="container flex items-center justify-center px-16 py-5 mx-auto">
-          <div className="flex flex-row items-center justify-start w-full">
+          {/* Changed to justify-between from "justify-start" */}
+          <div className="flex flex-row items-center justify-between w-full">
             {linkData.map((item, index) => (
               <>
-                <span className="mr-2">
+                {/* Removed mr-2 from span class */}
+                <span className="">
                   <PageLink title={item.title} link={item.link} key={index} icon={item.icon} />
                 </span>
               </>
