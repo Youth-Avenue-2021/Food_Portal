@@ -52,7 +52,7 @@ const Navbar = () => {
             {/* <a href="/login" className="px-4 py-2 mx-2 text-white duration-200 rounded-md shadow-xl bg-sky-600 hover:text-sky-600 hover:bg-white">
               Login
             </a> */}
-            <a href="/login" className="px-4 py-2 mx-2 text-sky-600 duration-200 rounded-md shadow-xl border-2 border-sky-600 hover:bg-sky-600 hover:text-white">
+            <a href="/login" className="px-4 py-2 mx-2 text-sky-600 duration-300 rounded-md shadow-xl border-2 border-sky-600 hover:bg-sky-600 hover:text-white font-semibold">
               Login
             </a>
             {/* Add Signup Button below login page */}
@@ -63,7 +63,7 @@ const Navbar = () => {
             <a href="/search" className="flex items-center justify-center w-10 h-10 mx-3 bg-slate-50 rounded-full shadow-md text-sky-500">
               <i className="fa-solid fa-magnifying-glass"></i>
             </a> */}
-            <a href="/search" className="flex items-center justify-center w-10 py-2 px-5 mx-3 rounded-md shadow-md text-sky-600 text-2xl border-2 border-sky-600 hover:text-white hover:bg-sky-600">
+            <a href="/search" className="flex items-center justify-center w-10 py-2 px-5 mx-3 rounded-md shadow-md text-sky-600 text-2xl border-2 border-sky-600 hover:text-white hover:bg-sky-600 duration-300">
               <i className="fa-solid fa-magnifying-glass"></i>
             </a>
 
