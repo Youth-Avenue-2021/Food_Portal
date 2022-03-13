@@ -20,7 +20,8 @@ function App() {
           element={
             <>
               <SearchSection />
-              <MessRanking />
+              <MessRanking title="Top Ranked Mess" />
+              <MessRanking title="All Mess" />
             </>
           }
         />
