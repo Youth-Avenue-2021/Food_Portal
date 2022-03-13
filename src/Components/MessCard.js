@@ -15,7 +15,7 @@ const MessCard = () => {
             <i className="text-sky-500 fa-solid fa-star-half-stroke"></i>
           </div>
           <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique, temporibus eius sit impedit, </p>
-          <Link to="/mess" className="mt-3 underline text-sky-500">
+          <Link to="/mess/info" className="mt-3 underline text-sky-500">
             View Mess
           </Link>
         </div>
