@@ -8,7 +8,7 @@ const MessComplains = () => {
         <h2 className="text-3xl font-medium">Mess Complains</h2>
         <div className="flex flex-row items-center justify-between w-full px-4 my-5">
           <p className="text-lg">
-            <i className="mr-2 text-sky-600 fa-solid fa-triangle-exclamation"></i>176 Complains Founded
+            <i className="mr-2 text-sky-600 fa-solid fa-triangle-exclamation"></i>5 Complains Found
           </p>
           <SelectOption />
         </div>
